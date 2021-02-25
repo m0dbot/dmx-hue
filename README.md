@@ -1,7 +1,7 @@
 this is experimental and a workaround, not a solution!
 
 
-i found out that the ikea tradfri lamps only accept color commands in the [xy format](https://community.openhab.org/t/solved-convert-hsbtype-to-cie-xy-needed-for-ikea-tradfri-control-through-deconz-rest/48825/5) other than hsv like most hue-compatible lights 
+i found out that the ikea tradfri lamps only accept color commands in the [xy format](https://community.openhab.org/t/solved-convert-hsbtype-to-cie-xy-needed-for-ikea-tradfri-control-through-deconz-rest/48825/9) other than hsv like most hue-compatible lights 
 
 DMX channels per lamp:
 
@@ -24,7 +24,7 @@ todo:
 
 -suppress ikea lamp update while lamp is in transition (bug in all tardfri lights, https://www.wouterbulten.nl/blog/tech/ikea-tradfri-temp-and-brightness-with-home-assistant/)
 
--add a conversion math thing from rgb to xy (like that https://gist.github.com/popcorn245/30afa0f98eea1c2fd34d)
+-add a conversion math thing from rgb to xy like [that](https://community.openhab.org/t/solved-convert-hsbtype-to-cie-xy-needed-for-ikea-tradfri-control-through-deconz-rest/48825/9)
 
 -learn java - _ - 
 
