@@ -12,7 +12,7 @@ DMX channels per lamp:
 
 
 todo:
--add transition channel for each lamp
+-add transition channel for each lamp 
 -create new config thing where you can switch every lamp between normal, ikea, ct - maybe this can be automated by reading out from bridge)
 -find out how the ct(color temp) lights work (api call..)
 -suppress ikea lamp update while lamp is in transition (bug in all tardfri lights, https://www.wouterbulten.nl/blog/tech/ikea-tradfri-temp-and-brightness-with-home-assistant/)
