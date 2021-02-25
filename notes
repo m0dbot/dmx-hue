@@ -1,0 +1,8 @@
+todo:
+add transition channel for each lamp
+create new config thing where you can switch every lamp between normal, ikea, ct
+find out how the ct(color temp) lights work (api call..)
+suppress ikea lamp update while lamp is in transition (bug in all tardfri lights, https://www.wouterbulten.nl/blog/tech/ikea-tradfri-temp-and-brightness-with-home-assistant/)
+add a conversion math thing from rgb to xy (like that https://gist.github.com/popcorn245/30afa0f98eea1c2fd34d)
+learn java [=
+port the whole thing to arduino and make it work with an esp8266 or ethernet shield
