@@ -1,9 +1,13 @@
 this is experimental and a workaround, not a solution!
 
-i found out that the ikea tradfri lamps only accept color commands in the [[xy format](https://community.openhab.org/t/solved-convert-hsbtype-to-cie-xy-needed-for-ikea-tradfri-control-through-deconz-rest/48825/5) other than hsv like most hue-compatible lights 
+
+i found out that the ikea tradfri lamps only accept color commands in the [xy format](https://community.openhab.org/t/solved-convert-hsbtype-to-cie-xy-needed-for-ikea-tradfri-control-through-deconz-rest/48825/5) other than hsv like most hue-compatible lights 
 DMX channels per lamp:
+
 1-DIM
+
 2-ColorX
+
 3-ColorY
 
 
