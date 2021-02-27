@@ -1,8 +1,9 @@
 this is experimental and a workaround, not a solution!
 
-```
+
 i found out that the ikea tradfri lamps only accept color commands in the [xy format](https://community.openhab.org/t/solved-convert-hsbtype-to-cie-xy-needed-for-ikea-tradfri-control-through-deconz-rest/48825/9) other than hsv like most hue-compatible lights 
 
+```
 DMX channels per lamp:
 1-DIM
 2-ColorX
@@ -20,7 +21,7 @@ todo:
 -create new config thing where you can switch every lamp between normal, ikea, ct - maybe this can be automated by reading out from bridge)
 -find out how the ct(color temp) lights work (api call..)
 -suppress ikea lamp update while lamp is in transition (bug in all tardfri lights, https://www.wouterbulten.nl/blog/tech/ikea-tradfri-temp-and-brightness-with-home-assistant/)
--add a conversion math thing from rgb to xy like [that](https://community.openhab.org/t/solved-convert-hsbtype-to-cie-xy-needed-for-ikea-tradfri-control-through-deconz-rest/48825/9)
+-add a conversion math thing from rgb to xy
 -learn java - _ - 
 -run it on a pi with QLC+ simultaneously (qlc blocks the artnet port on all interfaces. i tried crazy stuff like virtual bridges with multiple virtual interfaces)
 -port the whole thing to arduino and make it work with an or ethernet shield
